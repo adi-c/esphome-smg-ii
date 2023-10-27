@@ -103,7 +103,7 @@ sensor:
       - multiply: 0.001
     unit_of_measurement: kWh
 
- - platform: total_daily_energy
+  - platform: total_daily_energy
     name: "${name} Inverter charging energy today"
     restore: true
     icon: mdi:counter
